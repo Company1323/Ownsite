@@ -12,7 +12,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const frontendPath = path.join(__dirname, "..", "public");
+const frontendPath = path.join(__dirname, "public");
 
 app.use(express.static(frontendPath));
 
