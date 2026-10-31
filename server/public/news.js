@@ -1,6 +1,6 @@
 
 (() => {
-    const API_URL = "http://localhost:3000/api/news";
+    const API_URL = "/api/news";
 
     const homeNews = document.getElementById("homeNews");
     const newsContent = document.getElementById("newsContent");
